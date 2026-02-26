@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counselor Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Counselor Dashboard</h1>
+
+  <div class="cards">
+    <div class="card">Walk-ins<br><span id="walkins">0</span></div>
+    <div class="card">Calls<br><span id="calls">0</span></div>
+    <div class="card">Applications<br><span id="apps">0</span></div>
+    <div class="card">Admissions<br><span id="admissions">0</span></div>
+  </div>
+
+  <h2>Today's Work</h2>
+
+  <div class="form">
+    <input type="number" id="w" placeholder="Walk-ins">
+    <input type="number" id="c" placeholder="Calls">
+    <input type="number" id="a" placeholder="Applications">
+    <input type="number" id="ad" placeholder="Admissions">
+    <button onclick="saveData()">Save</button>
+  </div>
+
+  <script src="dashboard.js"></script>
+</body>
+</html>

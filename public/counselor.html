@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Counselor Entry</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Counselor Entry Panel</h1>
+
+<input type="text" id="name" placeholder="Counselor Name">
+<input type="date" id="date">
+
+<input type="number" id="w" placeholder="Walk-ins">
+<input type="number" id="c" placeholder="Calls">
+<input type="number" id="a" placeholder="Applications">
+<input type="number" id="s" placeholder="Shortlists">
+<input type="number" id="v" placeholder="Visas">
+
+<button onclick="saveData()">Submit</button>
+
+<script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+<script src="counselor.js"></script>
+</body>
+</html>
